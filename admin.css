@@ -1,0 +1,59 @@
+body {
+    font-family: 'poppins', sans-serif;
+    background-image: url('ivan-samudra-BqRXUfx21cI-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    padding-right: 10px;
+}
+
+img {
+    width: 60%;
+    height: 60%;
+    padding-left: 40px;
+  }
+
+.navbar-nav a:hover {
+    font-size: 21px;
+    margin: 0;
+    color: #ff0000;
+    transition: 0.1s linear ;
+}
+
+.navbar-nav a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 21px;
+}
+
+.navbar-nav {
+    display: flex;
+    width: 10000px;
+    justify-content: space-around;
+    padding-left: 150px;
+    
+}
+
+.login-button{
+    background-color: transparent;
+    border: 1.8px solid #000000;
+    border-radius: 5em;
+    padding: 0.2rem 0.6rem;
+    font-size: 15px;
+}
+
+.login-button:hover {
+    color: #131418;
+    background-color: #f7f2f2;
+    transition: all ease-in-out 350ms;
+}
