@@ -1,10 +1,11 @@
 <?php
-include '../service/koneksi database.php';
+include 'koneksi_database.php';
 
 if (isset($_GET['id'])) {
-    $id = $_GET['id'];
-    $sql = "SELECT * FROM user WHERE id_user=$id";
-    $result = $db->query($sql);
+    $id_user= $_GET['id'];
+
+    $sql = "SELECT * FROM user WHERE id_user=$id_user";
+    $result = $mysqli->query($sql);
 
     if ($result->num_rows > 0) {
         $row = $result->fetch_assoc();
@@ -16,7 +17,7 @@ if (isset($_GET['id'])) {
 if (isset($_POST['update'])) {
     $id = $_POST['id'];
     $username = $_POST['username'];
-    $notelp = $_POST['nomor_telepon'];
+    $notelp = $_POST['notelp'];
     $alamat = $_POST['alamat'];
     $email = $_POST['email'];
     $password = $_POST['password'];
@@ -24,10 +25,10 @@ if (isset($_POST['update'])) {
 
     $sql = "UPDATE user SET username='$username', nomor_telepon='$notelp', alamat='$alamat', email='$email', password='$password', role='$role' WHERE id_user=$id";
 
-    if ($db->query($sql) === TRUE) {
-        header("Location: admin.php");
+    if ($mysqli->query($sql) === TRUE) {
+        header("Location: tabel user.php");
     } else {
-        echo "Error: " . $sql . "<br>" . $db->error;
+        echo "Error: " . $sql . "<br>" . $mysqli->error;
     }
 }
 ?>

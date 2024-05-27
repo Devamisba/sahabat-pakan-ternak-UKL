@@ -25,6 +25,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
+    <link rel="website icon" type="png" href="sahabat-high-resolution-logo-transparent.png">
     <link rel="stylesheet" href="register.css">
     <style>
 table {
@@ -56,7 +57,7 @@ table {
                     <td><input type="number" name="notelp" required></td>
                 </tr>
                 <tr>
-                    <td>Alamat</td>
+                    <td>Alamat lengkap</td>
                     <td><input type="text" name="alamat" required></td>
                 </tr>
                 <tr>
@@ -66,16 +67,6 @@ table {
                 <tr>
                     <td>Password</td>
                     <td><input type="password" name="password" required></td>
-                </tr>
-                <tr>
-                    <td>Role</td>
-                    <td>
-                        <select name="role" id="role" required>
-                            <option disabled selected>Pilih</option>
-                            <option value="admin">Admin</option>
-                            <option value="user">User</option>
-                        </select>
-                    </td>
                 </tr>
                 <tr>
                     <td><button class="submit" name="submit">Register</button></td>

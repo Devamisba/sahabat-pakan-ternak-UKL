@@ -1,13 +1,12 @@
-<?php include 'koneksi database.php'; ?>
-
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Read Users</title>
+    <title>Tabel User</title>
+    <link rel="website icon" type="png" href="sahabat-high-resolution-logo-transparent.png">
     <link rel="stylesheet" href="">
 </head>
 <body>
-    <h2>Read Users</h2>
+    <h2>Tabel User</h2>
     <table border="1">
         <tr>
             <th>ID</th>
@@ -17,16 +16,24 @@
             <th>Email</th>
             <th>Password</th>
             <th>Role</th>
-            <th>Actions</th> 
+            <th>Action</th> 
             
         </tr>
        
         <?php
-        $sql = "SELECT * FROM user";
-        $result = $mysql->query($sql);
+        require "koneksi_database.php";
+        $sql = mysqli_query($mysqli, "SELECT * FROM user");
 
-        if ($result->num_rows > 0) {
-            while($row = $result->fetch_assoc()) {
+        if ($sql) {
+            while($row = mysqli_fetch_assoc($sql)) {
+
+                $id_user = $row['id_user'];
+                $username = $row['username'];
+                $nomor_telepon = $row['nomor_telepon'];
+                $alamat = $row['alamat'];
+                $email = $row['email'];
+                $password = $row['password'];
+                $role = $row['role'];
                 echo "<tr>
                         <td>".$row["id_user"]."</td>
                         <td>".$row["username"]."</td>
@@ -37,7 +44,7 @@
                         <td>".$row["role"]."</td>
                         <td>
                             <a href='edit.php?id=".$row["id_user"]."' class='edit'>Edit</a> | 
-                            <a href='deleteuser.php?id=".$row["id_user"]."' class='delete'>Delete</a>
+                            <a href='delete.php?id=".$row["id_user"]."' class='delete'>Delete</a>
                         </td>
                       </tr>";
             }

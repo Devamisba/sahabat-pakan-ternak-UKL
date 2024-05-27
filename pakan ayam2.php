@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pakan ayam2</title>
+    <link rel="website icon" type="png" href="sahabat-high-resolution-logo-transparent.png">
     <link rel="stylesheet" href="pakan ayam2.css">
 </head>
 <body>
     <!-- navbar start -->
     <nav class="navbar">
-        <a href="index2.php" class="navbar-logo"><img src="sahabat-high-resolution-logo-black-transparent.png" alt=""></a>
+        <a href="index2.php" class="navbar-logo"><img src="sahabat-high-resolution-logo-transparent.png" alt=""></a>
 
         <div class="navbar-nav">
-            <a href="tentang kami2.php">Tentang SPT</a>
+           
             <div class="dropdown">
                 <button class="dropbtn">Produk</button>
                 <div class="dropdown-content">
@@ -48,22 +49,22 @@
 
             <div class="product-list">
               <div class="product-item">
-                <img src="WhatsApp Image 2024-05-09 at 20.01.05.jpeg" alt="FARMS CHOI">
+                <img src="kemasan pakan.jpeg" class="pakan">
                 <h3>SUPER++</h3>
-                <p>Pakan Penggemukan Ayam Pedaging</p>
-                <a href="#" class="detail">Detail</a>
+                <p>Pakan Untuk Ayam Pedaging</p>
+                <button><a href="beli.php">Beli</a></button>
               </div>
               <div class="product-item">
-                <img src="WhatsApp Image 2024-05-09 at 20.01.05.jpeg" alt="FARMS CHICK">
+              <img src="kemasan pakan.jpeg" class="pakan">
                 <h3>SUPER+</h3>
                 <p>Pakan Ayam Untuk Menghasilkan Telur Yang Sempurna</p>
-                <a href="#" class="detail">Detail</a>
+                <button><a href="beli.php">Beli</a></button>
               </div>
               <div class="product-item">
-                <img src="WhatsApp Image 2024-05-09 at 20.01.05.jpeg" alt="FARMS BRO">
+              <img src="kemasan pakan.jpeg" class="pakan">
                 <h3>SUPER</h3>
                 <p>Pakan Anak Ayam</p>
-                <a href="#" class="detail">Detail</a>
+                <button><a href="https://wa.me/qr/PSWQPTCGM2THB1">Beli</a></button>
               </div>
             </div>
           </div>

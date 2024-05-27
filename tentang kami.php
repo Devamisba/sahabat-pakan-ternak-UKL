@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tentang Kami</title>
+    <link rel="website icon" type="png" href="sahabat-high-resolution-logo-transparent.png">
     <link rel="stylesheet" href="tentang kami.css">
 </head>
 <body>
 
         <!-- navbar start -->
         <nav class="navbar">
-            <a href="index.php" class="navbar-logo"><img src="sahabat-high-resolution-logo-black-transparent.png" alt=""></a>
+            <a href="index.php" class="navbar-logo"><img src="sahabat-high-resolution-logo-transparent.png" alt=""></a>
     
             <div class="navbar-nav">
-                <a href="tentang kami.php">Tentang SPT</a>
+                
                 <div class="dropdown">
                     <button class="dropbtn">Produk</button>
                     <div class="dropdown-content">
@@ -29,11 +30,14 @@
         
         <ul style="list-style: none;">
           <a href="login.php"><li><button class="login-button">Login</button></li></a>
-      </ul>
-            
+      </ul> 
             
         </nav>
         <!--navbar end-->
+
+        <div class="keterangan">
+          <p>mulai dari proses tepung jagung membuat bahan campuran pakan ternak buat penggemukan khususnya babi dan tepung biskuit buat bahan campuran pakan ternak multifungsi buat unggas bisa buat babi juga bisa,bebek potong,ayam potong dan burung puyuh</p>
+        </div>
     
 </body>
 </html>

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="website icon" type="png" href="sahabat-high-resolution-logo-transparent.png">
     <title>index</title>
     <link rel="stylesheet" href="index.css">
 </head>
@@ -10,10 +11,10 @@
 
         <!-- navbar start -->
         <nav class="navbar">
-            <a href="index.php" class="navbar-logo"><img src="sahabat-high-resolution-logo-black-transparent.png" ></a>
+            <a href="index.php" class="navbar-logo"><img src="sahabat-high-resolution-logo-transparent.png" ></a>
     
             <div class="navbar-nav">
-                <a href="tentang kami.php">Tentang SPT</a>
+                
                 <div class="dropdown">
                     <button class="dropbtn">Produk</button>
                     <div class="dropdown-content">
@@ -36,7 +37,7 @@
         <!--navbar end-->
     
         <div class="tengah">
-            <h1>Selamat Datang Di Website Pakan Ternak</h1>
+            <h1>Selamat Datang Di Website Sahabat Pakan Ternak</h1>
             <p>Selamat Berbelanja dan Pilih Lah Pakan Sesuai Kebutuhan! </p>
         <div>
 

@@ -4,21 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pakan bebek</title>
+    <link rel="website icon" type="png" href="sahabat-high-resolution-logo-transparent.png">
     <link rel="stylesheet" href="pakan ayam.css">
-    <style>
-      button {
-    color: rgb(0, 0, 0);
-    border-color: #008a5c;
-}
-    </style>
 </head>
 <body>
     <!-- navbar start -->
     <nav class="navbar">
-        <a href="index.php" class="navbar-logo"><img src="sahabat-high-resolution-logo-black-transparent.png" alt=""></a>
+        <a href="index.php" class="navbar-logo"><img src="sahabat-high-resolution-logo-transparent.png"></a>
 
         <div class="navbar-nav">
-            <a href="tentang Kami.php">Tentang SPT</a>
+            
             <div class="dropdown">
                 <button class="dropbtn">Produk</button>
                 <div class="dropdown-content">
@@ -47,32 +42,29 @@
     <main>
         <section class="product">
           <div class="container">
-            <h2>Pakan Ayam</h2>
+            <h2>Pakan Bebek</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta illum nostrum voluptatum voluptas quos fuga id at molestias ratione non, itaque ut nam labore sequi impedit quo sint. Quos, beatae!
             </p>
 
             <div class="product-list">
               <div class="product-item">
-                <img src="farms-choi.jpg" alt="FARMS CHOI">
+                <img src="kemasan pakan.jpeg" class="pakan">
                 <h3>SUPER++</h3>
-                <p>Pakan Penggemukan Ayam Pedaging</p>
-                <button><a href="#" class="detail">Detail</a></button>
-                <button><a href="login.php" class="detail">Beli</a></button>
+                <p>Pakan Untuk Bebek Pedaging</p>
+                <button><a href="login.php">Beli</a></button>
               </div>
               <div class="product-item">
-                <img src="farms-chick.jpg" alt="FARMS CHICK">
+                <img src="kemasan pakan.jpeg" class="pakan">
                 <h3>SUPER+</h3>
-                <p>Pakan Ayam Untuk Menghasilkan Telur Yang Sempurna</p>
-                <button><a href="#" class="detail">Detail</a></button>
-                <button><a href="login.php" class="detail">Beli</a></button>
+                <p>Pakan Bebek Untuk Menghasilkan Telur Yang Sempurna</p>
+                <button><a href="login.php">Beli</a></button>
               </div>
               <div class="product-item">
-                <img src="farms-bro.jpg" alt="FARMS BRO">
+                <img src="kemasan pakan.jpeg" class="pakan">
                 <h3>SUPER</h3>
-                <p>Pakan Anak Ayam</p>
-                <button><a href="#" class="detail">Detail</a></button>
-                <button><a href="login.php" class="detail">Beli</a></button>
+                <p>Pakan Anak Bebek</p>
+                <button><a href="login.php">Beli</a></button>
               </div>
             </div>
           </div>

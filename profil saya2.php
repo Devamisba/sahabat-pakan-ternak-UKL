@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>profil saya2</title>
+    <link rel="website icon" type="png" href="sahabat-high-resolution-logo-transparent.png">
     <link rel="stylesheet" href="profil saya2.css">
 </head>
 <body>
 
     <!-- navbar start -->
     <nav class="navbar">
-        <a href="index2.php" class="navbar-logo"><img src="sahabat-high-resolution-logo-black-transparent.png" alt=""></a>
+        <a href="index2.php" class="navbar-logo"><img src="sahabat-high-resolution-logo-transparent.png" alt=""></a>
 
         <div class="navbar-nav">
-            <a href="tentang kami2.php">Tentang SPT</a>
+            
             <div class="dropdown">
                 <button class="dropbtn">Produk</button>
                 <div class="dropdown-content">
@@ -33,16 +34,6 @@
         
         
     </nav>
-
-    <!DOCTYPE html>
-<html lang="id">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Biodata</title>
-  <link rel="stylesheet" href="profil saya.css">
-</head>
-<body>
 
   <div class="container">
     <h1 align="center">Biodata</h1>
@@ -76,7 +67,7 @@
       </tr>
       <tr>
         <td class="label">Email:</td>
-        <td>devamisbakhulkhuluqkhuluq@gmail.com</td>
+        <td>devamisbakhulk07@gmail.com</td>
       </tr>
     </table>
   </div>

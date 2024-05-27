@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pakan sapi2</title>
+    <link rel="website icon" type="png" href="sahabat-high-resolution-logo-transparent.png">
     <link rel="stylesheet" href="pakan ayam2.css">
 </head>
 <body>
     <!-- navbar start -->
     <nav class="navbar">
-        <a href="index2.html" class="navbar-logo"><img src="sahabat-high-resolution-logo-black-transparent.png" alt=""></a>
+        <a href="index2.html" class="navbar-logo"><img src="sahabat-high-resolution-logo-transparent.png" alt=""></a>
 
         <div class="navbar-nav">
-            <a href="tentang kami2.php">Tentang SPT</a>
+            
             <div class="dropdown">
                 <button class="dropbtn">Produk</button>
                 <div class="dropdown-content">
@@ -41,29 +42,29 @@
     <main>
         <section class="product">
           <div class="container">
-            <h2>Pakan Ayam</h2>
+            <h2>Pakan Sapi</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta illum nostrum voluptatum voluptas quos fuga id at molestias ratione non, itaque ut nam labore sequi impedit quo sint. Quos, beatae!
             </p>
 
             <div class="product-list">
               <div class="product-item">
-                <img src="farms-choi.jpg" alt="FARMS CHOI">
+              <img src="kemasan pakan.jpeg" class="pakan">
                 <h3>SUPER++</h3>
-                <p>Pakan Penggemukan Ayam Pedaging</p>
-                <a href="#" class="detail">Detail</a>
+                <p>Pakan Untuk Penggemukan Sapi</p>
+                <button><a href="beli.php">Beli</a></button>
               </div>
               <div class="product-item">
-                <img src="farms-chick.jpg" alt="FARMS CHICK">
+              <img src="kemasan pakan.jpeg" class="pakan">
                 <h3>SUPER+</h3>
-                <p>Pakan Ayam Untuk Menghasilkan Telur Yang Sempurna</p>
-                <a href="#" class="detail">Detail</a>
+                <p>Pakan Sapi Untuk Menghasilkan Susu Yang Sehat</p>
+                <button><a href="beli.php">Beli</a></button>
               </div>
               <div class="product-item">
-                <img src="farms-bro.jpg" alt="FARMS BRO">
+              <img src="kemasan pakan.jpeg" class="pakan">
                 <h3>SUPER</h3>
-                <p>Pakan Anak Ayam</p>
-                <a href="#" class="detail">Detail</a>
+                <p>Pakan Anak Sapi</p>
+                <button><a href="https://wa.me/qr/PSWQPTCGM2THB1">Beli</a></button>
               </div>
             </div>
           </div>

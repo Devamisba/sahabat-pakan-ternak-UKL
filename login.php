@@ -46,6 +46,7 @@ header("location:login.php?pesan=gagal");
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login</title>
+    <link rel="website icon" type="png" href="sahabat-high-resolution-logo-transparent.png">
     <style>
         body {
     font-family: 'poppins', sans-serif;
@@ -74,10 +75,15 @@ h3 {
     padding-top: 3em;
 }
 
+p {
+    color: white;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    font-size: 18px;
+}
 
+</style>
 
-
-    </style>
 </head>
 
 
@@ -112,6 +118,10 @@ h3 {
 
                 </form>
 
+                </div>
+
+                <div>
+                    <p align="center" >Jika ingin melakukan pembelian silahkan LOGIN atau REGISTER terlebih dahulu jika belum mempunyai akun!</p>
                 </div>
     
 </body>

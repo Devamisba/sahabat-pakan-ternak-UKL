@@ -4,21 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pakan ayam</title>
+    <link rel="website icon" type="png" href="sahabat-high-resolution-logo-transparent.png">
     <link rel="stylesheet" href="pakan ayam.css">
-    <style>
-      button {
-    color: rgb(0, 0, 0);
-    border-color: #008a5c;
-}
-    </style>
 </head>
 <body>
     <!-- navbar start -->
     <nav class="navbar">
-        <a href="index.php" class="navbar-logo"><img src="sahabat-high-resolution-logo-black-transparent.png"></a>
+        <a href="index.php" class="navbar-logo"><img src="sahabat-high-resolution-logo-transparent.png"></a>
 
         <div class="navbar-nav">
-            <a href="tentang kami.php">Tentang SPT</a>
+            
             <div class="dropdown">
                 <button class="dropbtn">Produk</button>
                 <div class="dropdown-content">
@@ -54,25 +49,22 @@
 
             <div class="product-list">
               <div class="product-item">
-                <img src="WhatsApp Image 2024-05-09 at 20.01.05.jpeg" alt="FARMS CHOI">
+                <img src="kemasan pakan.jpeg" class="pakan">
                 <h3>SUPER++</h3>
-                <p>Pakan Penggemukan Ayam Pedaging</p>
-                <button><a href="#" class="detail">Detail</a></button>
-                <button><a href="login.php" class="detail">Beli</a></button>
+                <p>Pakan Untuk Ayam Pedaging</p>
+                <button><a href="login.php">Beli</a></button>
               </div>
               <div class="product-item">
-                <img src="WhatsApp Image 2024-05-09 at 20.01.05.jpeg" alt="FARMS CHICK">
+                <img src="kemasan pakan.jpeg" class="pakan">
                 <h3>SUPER+</h3>
                 <p>Pakan Ayam Untuk Menghasilkan Telur Yang Sempurna</p>
-                <button><a href="#" class="detail">Detail</a></button>
-                <button><a href="login.php" class="detail">Beli</a></button>
+                <button><a href="login.php">Beli</a></button>
               </div>
               <div class="product-item">
-                <img src="WhatsApp Image 2024-05-09 at 20.01.05.jpeg" alt="FARMS BRO">
+                <img src="kemasan pakan.jpeg" class="pakan">
                 <h3>SUPER</h3>
                 <p>Pakan Anak Ayam</p>
-                <button><a href="#" class="detail">Detail</a></button>
-                <button><a href="login.php" class="detail">Beli</a></button>
+                <button><a href="login.php">Beli</a></button>
               </div>
             </div>
           </div>
