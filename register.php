@@ -69,6 +69,14 @@ table {
                     <td><input type="password" name="password" required></td>
                 </tr>
                 <tr>
+                    <td>Role</td>
+                    <td>
+                        <select name="role" id="role" required>
+                            <option value="user">User</option>
+                            <option value="admin">Admin</option>
+                        </select>
+                    </td>
+                <tr>
                     <td><button class="submit" name="submit">Register</button></td>
                 </tr>
 
@@ -80,5 +88,10 @@ table {
 
         </form>
     </div>
+
+    <footer>
+        <p style="margin-top: 20px; font-size: 0.9em;" align="center" >&copy; 2024 Sahabat Pakan Ternak. All Rights Reserved.</p>
+    </footer>
+   
 </body>
 </html>

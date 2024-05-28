@@ -15,7 +15,7 @@ if ($conn->connect_error) {
 // Fetch data to be edited
 if (isset($_GET['id'])) {
     $id = $_GET['id'];
-    $sql = "SELECT * FROM barang WHERE id_pakan = $id";
+    $sql = "SELECT * FROM pakanbebek WHERE id_bebek = $id";
     $result = $conn->query($sql);
 
     if ($result->num_rows > 0) {
@@ -29,11 +29,12 @@ if (isset($_GET['id'])) {
 // Update data
 if (isset($_POST['update'])) {
     $id = $_POST['id'];
+    $foto = $_POST['foto'];
     $nama = $_POST['nama'];
-    $jenis = $_POST['jenis'];
-    $harga = $_POST['harga'];
+    $deskripsi = $_POST['deskripsi'];
+    $harga_perkilo = $_POST['harga_perkilo'];
 
-    $sql = "UPDATE barang SET nama='$nama', jenis='$jenis', harga='$harga' WHERE id_pakan=$id";
+    $sql = "UPDATE pakanbebek SET foto='$foto', nama='$nama', deskripsi='$deskripsi', harga_perkilo='$harga_perkilo' WHERE id_bebek=$id";
 
     if ($conn->query($sql) === TRUE) {
         echo "Record updated successfully";
@@ -48,15 +49,16 @@ $conn->close();
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Update Barang</title>
+    <title>Update Pakan Bebek</title>
 </head>
 <body>
-    <h2>Update Barang</h2>
+    <h2>Update Pakan Bebek</h2>
     <form method="POST" action="">
-        <input type="hidden" name="id" value="<?php echo $row['id_pakan']; ?>">
+        <input type="hidden" name="id" value="<?php echo $row['id_bebek']; ?>">
+        Foto: <input type="text" name="foto" value="<?php echo $row['foto']; ?>" required><br>
         Nama: <input type="text" name="nama" value="<?php echo $row['nama']; ?>" required><br>
-        Jenis: <input type="text" name="jenis" value="<?php echo $row['jenis']; ?>" required><br>
-        Harga: <input type="text" name="harga" value="<?php echo $row['harga']; ?>" required><br>
+        Deskripsi: <input type="text" name="deskripsi" value="<?php echo $row['deskripsi']; ?>" required><br>
+        Harga Perkilo: <input type="text" name="harga_perkilo" value="<?php echo $row['harga_perkilo']; ?>" required><br>
         <input type="submit" name="update" value="Update">
     </form>
 </body>

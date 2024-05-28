@@ -16,11 +16,12 @@ if(isset($_GET['id'])) {
     $id = $_GET['id'];
 
     // Query untuk menghapus user
-    $sql = "DELETE FROM barang WHERE id_pakan='$id'";
+    $sql = "DELETE FROM pakanbabi WHERE id_bebek='$id'";
     if ($db->query($sql) === TRUE) {
         echo "<script>alert('hapus berhasil')</script>";
     } else {
         echo "Error: " . $sql . "<br>" . $db->error;
     }
 }
+
 ?>

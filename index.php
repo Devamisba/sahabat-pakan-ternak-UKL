@@ -14,13 +14,12 @@
             <a href="index.php" class="navbar-logo"><img src="sahabat-high-resolution-logo-transparent.png" ></a>
     
             <div class="navbar-nav">
-                
+            <a href="tentang kami.php">Tentang Kami</a>
                 <div class="dropdown">
                     <button class="dropbtn">Produk</button>
                     <div class="dropdown-content">
                      <a href="pakan ayam.php">Pakan Ayam</a>
                      <a href="pakan bebek.php">Pakan Bebek</a>
-                     <a href="pakan sapi.php">Pakan Sapi</a>
                      <a href="pakan babi.php">Pakan Babi</a>
                 </div>
               </div>
@@ -40,6 +39,10 @@
             <h1>Selamat Datang Di Website Sahabat Pakan Ternak</h1>
             <p>Selamat Berbelanja dan Pilih Lah Pakan Sesuai Kebutuhan! </p>
         <div>
+
+        <footer>
+        <p style="margin-top: 10em; font-size: 0.9em;" align="center" >&copy; 2024 Sahabat Pakan Ternak. All Rights Reserved.</p>
+        </footer>
 
 </body>
 </html>

@@ -14,13 +14,12 @@
             <a href="index.php" class="navbar-logo"><img src="sahabat-high-resolution-logo-transparent.png" alt=""></a>
     
             <div class="navbar-nav">
-                
+            <a href="tentang kami.php">Tentang Kami</a>
                 <div class="dropdown">
                     <button class="dropbtn">Produk</button>
                     <div class="dropdown-content">
                     <a href="pakan ayam.php">Pakan Ayam</a>
                     <a href="pakan bebek.php">Pakan Bebek</a>
-                    <a href="pakan sapi.php">Pakan Sapi</a>
                     <a href="pakan babi.php">Pakan Babi</a>
                 </div>
               </div>
@@ -36,8 +35,12 @@
         <!--navbar end-->
 
         <div class="keterangan">
-          <p>mulai dari proses tepung jagung membuat bahan campuran pakan ternak buat penggemukan khususnya babi dan tepung biskuit buat bahan campuran pakan ternak multifungsi buat unggas bisa buat babi juga bisa,bebek potong,ayam potong dan burung puyuh</p>
+          <h1>Website ini dibuat untuk mengenalkan bahan campuran atau bahan pokok pakan ternak</h1>
         </div>
+
+        <footer>
+        <p style="margin-top: 20em; font-size: 0.9em;" align="center" >&copy; 2024 Sahabat Pakan Ternak. All Rights Reserved.</p>
+        </footer>
     
 </body>
 </html>
