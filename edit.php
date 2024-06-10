@@ -4,7 +4,7 @@ include 'koneksi_database.php';
 if (isset($_GET['id'])) {
     $id_user= $_GET['id'];
 
-    $sql = "SELECT * FROM user WHERE id_user=$id_user";
+    $sql = "SELECT * FROM userr WHERE id_user=$id_user";
     $result = $mysqli->query($sql);
 
     if ($result->num_rows > 0) {
@@ -23,7 +23,7 @@ if (isset($_POST['update'])) {
     $password = $_POST['password'];
     $role = $_POST['role'];
 
-    $sql = "UPDATE user SET username='$username', nomor_telepon='$notelp', alamat='$alamat', email='$email', password='$password', role='$role' WHERE id_user=$id";
+    $sql = "UPDATE userr SET username='$username', nomor_telepon='$notelp', alamat='$alamat', email='$email', password='$password', role='$role' WHERE id_user=$id";
 
     if ($mysqli->query($sql) === TRUE) {
         header("Location: tabel user.php");
@@ -37,6 +37,56 @@ if (isset($_POST['update'])) {
 <html>
 <head>
     <title>Update User</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    color: #444;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="email"],
+form input[type="password"],
+form select {
+    width: calc(100% - 22px); /* Adjust width to accommodate padding and border */
+    padding: 10px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+    </style>
 </head>
 <body>
     <h2>Update User</h2>

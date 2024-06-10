@@ -16,7 +16,7 @@ if(isset($_GET['id'])) {
     $id = $_GET['id'];
 
     // Query untuk menghapus user
-    $sql = "DELETE FROM userr WHERE id_user='$id'";
+    $sql = "DELETE FROM kategori WHERE id_kategori='$id'";
     if ($db->query($sql) === TRUE) {
         echo "<script>alert('hapus berhasil')</script>";
     } else {

@@ -6,7 +6,7 @@ if(isset($_POST["login"])){
 $name= $_POST["nama"];
 $password= $_POST["password"];
 
-$result = mysqli_query($mysqli," SELECT * FROM user WHERE Username= '$name' AND password='$password' ");
+$result = mysqli_query($mysqli," SELECT * FROM userr WHERE Username= '$name' AND password='$password' ");
 
 //cek username
 if( mysqli_num_rows($result ) === 1){

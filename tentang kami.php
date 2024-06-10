@@ -18,9 +18,8 @@
                 <div class="dropdown">
                     <button class="dropbtn">Produk</button>
                     <div class="dropdown-content">
-                    <a href="pakan ayam.php">Pakan Ayam</a>
-                    <a href="pakan bebek.php">Pakan Bebek</a>
-                    <a href="pakan babi.php">Pakan Babi</a>
+                    <a href="login.php">Pakan Ayam</a>
+                    <a href="login.php">Pakan Bebek</a>
                 </div>
               </div>
             <a href="contact us.php">Kontak Kami</a>
@@ -35,7 +34,8 @@
         <!--navbar end-->
 
         <div class="keterangan">
-          <h1>Website ini dibuat untuk mengenalkan bahan campuran atau bahan pokok pakan ternak</h1>
+          <h1>Latar Belakang</h1>
+          <p>Sahabat pakan ternak.com adalah website yang menjual pakan untuk ternak, contohnya yaitu ayam, bebek, dan babi. bahan dasar dari pakan ternak kami adalah biskuit dan ada juga roti, bisa dijadikan bahan campuran atau langsung bahan inti. </p>
         </div>
 
         <footer>

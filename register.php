@@ -11,7 +11,7 @@
                 $mysqli = new mysqli('localhost', 'root', '', 'ukl');
 
                 //insert data user ke db
-                $result = mysqli_query($mysqli,"INSERT INTO user VALUES ('','$name','$notelp','$alamat','$email','$password','$role')");
+                $result = mysqli_query($mysqli,"INSERT INTO userr VALUES ('','$name','$notelp','$alamat','$email','$password','$role')");
 
                 //tunjukkan pesan jika user telah ditambah
                 echo "Data added successfully . <a href='index.php'>View Data</a>";

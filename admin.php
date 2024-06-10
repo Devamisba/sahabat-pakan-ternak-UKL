@@ -15,11 +15,8 @@
     
             <div class="navbar-nav">
                 <a href="tabel user.php">Tabel User</a>
-                <a href="tabel_pengirim.php">Tabel Pengirim</a>
-                <a href="tabel_kendaraan.php">Tabel Kendaraan</a>
-                <a href="tabel_pakanayam.php">Tabel Pakan Ayam</a>
-                <a href="tabel_pakanbebek.php">Tabel Pakan Bebek</a>
-                <a href="tabel_pakanbabi.php">Tabel Pakan Babi</a>
+                <a href="tabel kategori.php">Tabel Kategori</a>
+                <a href="tabel Pemesanan.php">Tabel Pemesanan</a>
         </div>
         
         <ul style="list-style: none;">

@@ -18,9 +18,8 @@
                 <div class="dropdown">
                     <button class="dropbtn">Produk</button>
                     <div class="dropdown-content">
-                     <a href="pakan ayam.php">Pakan Ayam</a>
-                     <a href="pakan bebek.php">Pakan Bebek</a>
-                     <a href="pakan babi.php">Pakan Babi</a>
+                     <a href="login.php">Pakan Ayam</a>
+                     <a href="login.php">Pakan Bebek</a>
                 </div>
               </div>
             <a href="contact us.php">Kontak Kami</a>
